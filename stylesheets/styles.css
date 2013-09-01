@@ -287,6 +287,10 @@ header li:hover {
   background: linear-gradient(top, #C3001D 0%,#950119 100%);
 }
 
+header li.no-icon {
+  text-align: center;
+}
+
 a.buttons {
 	-webkit-font-smoothing: antialiased;
 	background: url(../images/arrow-down.png) no-repeat;
@@ -303,6 +307,11 @@ a.github {
 a.buttons:hover {
 	color: #fff;
 	text-decoration: none;
+}
+
+header li.no-icon a.buttons {
+  background-image: none;
+  padding: 2px 2px 2px 2px;
 }
 
 
