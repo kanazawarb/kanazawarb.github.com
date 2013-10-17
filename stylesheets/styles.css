@@ -371,6 +371,13 @@ footer {
     right:130px;
     top:84px;
   }
+  header li:nth-of-type(1n) {
+    display: none;
+  }
+  header li:nth-child(1),
+  header li:nth-child(2) {
+    display: list-item;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
