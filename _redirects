@@ -1,6 +1,0 @@
-# rules for redirection from https://kzrb.org/meetup/ to https://meetup.kzrb.org w/ netlify
-# ref. https://www.netlify.com/docs/redirects/
-
-/meetup       https://meetup.kzrb.org
-/meetup/:num  https://meetup.kzrb.org/:num
-
